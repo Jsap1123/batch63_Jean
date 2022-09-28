@@ -7,7 +7,7 @@ public class CheckPrime {
 		// TODO Auto-generated method stub
 		
 		for(int numToCheck = 2; numToCheck <= 10; numToCheck++) {
-			
+			//int numToCheck = 11;
 			boolean isPrime = true;
 			for (int factor = 2; factor < numToCheck; factor++) {
 				if(numToCheck % factor == 0) {
